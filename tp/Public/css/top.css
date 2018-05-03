@@ -1,0 +1,35 @@
+html, body, ul, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img {margin: 0;padding: 0;border: 0;}
+ul{list-style-type:none;}
+select,input{vertical-align:middle;}
+body {background:#fff;color:#333;font-family:"宋体";font-size:12px;padding:0px 0;}
+td,p,li,select,input,textarea {font-size:12px;}
+a {text-decoration: none;}
+a:link {color: #333;}
+a:visited {color: #333;}
+a:hover, a:active, a:focus {color: #f00;text-decoration:underline;}
+.BR_conts{padding:6px 10px;font-size:13px;line-height:16px}
+.blogrecommend{width:260px;height:190px;background:url('../img/wx.png') no-repeat left top;overflow:hidden;}
+.blogrecommend .BR_title{height:30px;}
+.blogrecommend p{line-height:20px;padding-left:10px;}
+#closeButton{
+    position: absolute;
+    z-index: 2;
+    font-size: 0px;
+    line-height: 0px;
+    left: 240px;
+    top: 6px;
+    width: 15px;
+    height: 15px;
+    background-image: url('../img/close.gif');
+}
+#switchButton{
+    position: absolute;
+    z-index: 2;
+    font-size: 0px;
+    line-height: 0px;
+    left: 220px;
+    top: 6px;
+    width: 15px;
+    height: 15px;
+    background-image: url('../img/max.gif');
+}
